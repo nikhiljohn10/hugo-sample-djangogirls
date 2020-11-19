@@ -1,7 +1,7 @@
 ---
 title: Command Line
-type: page
-weight: 97
+draft: false
+weight: 4
 ---
 
 # Introduction to the command-line interface

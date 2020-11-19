@@ -6,4 +6,5 @@ buildDrafts = true
 watch = true
 
 [params]
-  BookMenuBundle = '/menu'
+#  BookMenuBundle = '/menu'
+	BookSection = "*"

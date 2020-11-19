@@ -1,7 +1,7 @@
 ---
 title: Welcome
-type: section
-weight: 100
+draft: false
+weight: 1
 ---
 
 # Django Girls Tutorial

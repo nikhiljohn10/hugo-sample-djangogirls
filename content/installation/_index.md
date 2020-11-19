@@ -1,7 +1,7 @@
 ---
 title: Installation
-type: section
-weight: 99
+draft: false
+weight: 2
 ---
 
 # Installation
@@ -24,24 +24,24 @@ If you are attending one of the [Django Girls events](https://djangogirls.org/ev
 ## Installation
 In this tutorial you will be building a blog. In order to do that, as you go through the tutorial you'll be instructed on how to install various software on your computer and set up some online accounts as they are needed. This page gathers all of the installation and sign-up instructions in one place (which is useful for some workshop formats).
 
-If you are using Chromebook, you need to [setup Chromebook]({{< relref "/installation/intro_to_command_line" >}}) before proceeding.
+If you are using Chromebook, you need to [setup Chromebook]({{< relref "/installation/chromebook" >}}) before proceeding.
 
 ## Brief intro to the command line {#command-line}
 Many of the steps below reference the "console", "terminal", "command window", or "command line" -- these all mean the same thing: a window on your computer where you can enter commands. When you get to the main tutorial, you'll learn more about the command line. For now, the main thing you need to know is how to open a command window and what it looks like.
 
-#### [Introduction to Commandline]({{< relref "/installation/intro_to_command_line" >}})
+#### [Introduction to Commandline]({{< relref "/installation/command_line" >}})
 
-#### [Install Python]({{< relref "/installation/python_installation" >}})
+#### [Install Python]({{< relref "/installation/python" >}})
 
 #### [Install a code editor]({{< relref "/installation/code_editor" >}})
 
-#### [Set up virtualenv and install Django]({{< relref "/installation/django_installation" >}})
+#### [Set up virtualenv and install Django]({{< relref "/installation/django" >}})
 
-#### [Install Git]({{< relref "/installation/install_git" >}})
+#### [Install Git]({{< relref "/installation/git" >}})
 
-#### [Create a GitHub account]({{< relref "/installation/install_git#create-a-github-account" >}})
+#### [Create a GitHub account]({{< relref "/installation/git#create-a-github-account" >}})
 
-#### [Create a PythonAnywhere account]({{< relref "/installation/signup_pythonanywhere" >}})
+#### [Create a PythonAnywhere account]({{< relref "/installation/pythonanywhere" >}})
 
 ## Start reading
 

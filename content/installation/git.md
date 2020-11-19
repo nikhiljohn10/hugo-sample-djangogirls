@@ -1,7 +1,7 @@
 ---
 title: Git
-type: page
-weight: 93
+draft: false
+weight: 9
 ---
 
 # Git

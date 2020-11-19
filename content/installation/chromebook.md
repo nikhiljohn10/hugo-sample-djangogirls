@@ -1,7 +1,7 @@
 ---
-title: Chromebook Setup
-type: page
-weight: 98
+title: Chromebook
+draft: false
+weight: 3
 ---
 
 # Chromebook Setup

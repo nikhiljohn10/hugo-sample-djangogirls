@@ -1,3 +1,9 @@
+---
+title: Python
+type: page
+weight: 96
+---
+
 # Let’s start with Python
 
 We're finally here!

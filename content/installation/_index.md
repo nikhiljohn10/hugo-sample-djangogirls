@@ -1,6 +1,7 @@
 ---
 title: Installation
-type: page
+type: section
+weight: 99
 ---
 
 # Installation
@@ -38,7 +39,7 @@ Many of the steps below reference the "console", "terminal", "command window", o
 
 #### [Install Git]({{< relref "/installation/install_git" >}})
 
-#### [Create a GitHub account]({{< relref "/installation/create_github_account" >}})
+#### [Create a GitHub account]({{< relref "/installation/install_git#create-a-github-account" >}})
 
 #### [Create a PythonAnywhere account]({{< relref "/installation/signup_pythonanywhere" >}})
 

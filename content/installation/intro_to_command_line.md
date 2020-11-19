@@ -1,3 +1,9 @@
+---
+title: Command Line
+type: page
+weight: 97
+---
+
 # Introduction to the command-line interface
 
 > For readers at home: this chapter is covered in the [Your new friend: Command Line](https://www.youtube.com/watch?v=jvZLWhkzX-8) video.

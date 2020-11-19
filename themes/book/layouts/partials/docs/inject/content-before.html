@@ -3,3 +3,40 @@
   {{ partial "docs/languages" . }}
 {{ end }}
 </div>
+
+<div class="flex flex-wrap justify-between">
+  {{if .PrevInSection}}
+    <a href="{{.PrevInSection.RelPermalink}}">Previous Section</a>
+  {{else}}
+    <span></span>
+  {{end}}
+  {{if .Prev}}
+    <a href="{{.Prev.RelPermalink}}">Previous</a>
+  {{else}}
+    <span></span>
+  {{end}}
+  {{if .Next}}
+    <a href="{{.Next.RelPermalink}}">Next</a>
+  {{else}}
+    <span></span>
+  {{end}}
+  {{if .NextInSection}}
+    <a href="{{.NextInSection.RelPermalink}}">Next Section</a>
+  {{else}}
+    <span></span>
+  {{end}}
+</div>
+
+<div  class="nav navbar-nav">
+  {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+</div>
+{{ define "breadcrumbnav" }}
+  {{ if .p1.Parent }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }} &gt;
+  {{ else if not .p1.IsHome }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+  {{ end }}
+  <span{{ if eq .p1 .p2 }} class="active"{{ end }}>
+    <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+  </span>
+{{ end }}

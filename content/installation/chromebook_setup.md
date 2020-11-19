@@ -1,6 +1,7 @@
 ---
 title: Chromebook Setup
 type: page
+weight: 98
 ---
 
 # Chromebook Setup

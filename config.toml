@@ -1,7 +1,9 @@
 baseURL = "http://localhost:1313/"
 languageCode = "en-us"
-title = "Djangogirls"
+title = "Django Girls Tutorial"
 theme = "book"
+buildDrafts = true
+watch = true
 
 [params]
   BookMenuBundle = '/menu'

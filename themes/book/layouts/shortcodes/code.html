@@ -1,0 +1,9 @@
+{{ if len .Params | eq 3 }}
+  <p class="code-label">{{.Get 1 }}</p>
+  {{ highlight (trim .Inner "\n\r") (.Get 0) (.Get 2) }}
+{{ else if len .Params | eq 2 }}
+  <p class="code-label">{{.Get 1 }}</p>
+  {{ highlight (trim .Inner "\n\r") (.Get 0) "" }}
+{{ else }}
+  {{ highlight (trim .Inner "\n\r") (.Get 0) "" }}
+{{ end }}

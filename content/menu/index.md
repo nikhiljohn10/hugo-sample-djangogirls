@@ -1,15 +1,13 @@
-+++
-headless = true
-+++
+---
+headless: true
+---
 
 - [Introduction]({{< relref "/" >}})
 - [Installation]({{< relref "/installation" >}})
-  - [Command Line]({{< relref "/installation#command-line" >}})
-  - [Python]({{< relref "/installation#python" >}})
-  - [Code Editor]({{< relref "/installation#code-editor" >}})
-  - [Virtual Environment]({{< relref "/installation#virtualenv" >}})
-  - [Django]({{< relref "/installation#django" >}})
-  - [Git]({{< relref "/installation#git" >}})
-  - [Github]({{< relref "/installation#github" >}})
-  - [PythonAnywhere]({{< relref "/installation#pythonanywhere" >}})
-- [Installation (chromebook)]({{< relref "/chromebook_setup" >}})
+  - [Chromebook (optional)]({{< relref "/installation/chromebook_setup" >}})
+  - [Command line]({{< relref "/installation/intro_to_command_line" >}})
+  - [Python]({{< relref "/installation/python_installation" >}})
+  - [Code Editor]({{< relref "/installation/code_editor" >}})
+  - [Django]({{< relref "/installation/django_installation" >}})
+  - [Git]({{< relref "/installation/install_git" >}})
+  - [PythonAnywhere]({{< relref "/installation/signup_pythonanywhere" >}})

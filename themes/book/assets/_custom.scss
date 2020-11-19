@@ -1,3 +1,26 @@
 /* You can add custom styles here. */
 
 // @import "plugins/numbered";
+
+.highlight > pre {
+  margin-top: 0;
+  border-top-left-radius: 0rem;
+}
+
+.code-label {
+  color: #f92672;
+  color: #CCCCCC;
+  background-color: #272822;
+  width: max-content;
+  max-width: 100%;
+  padding: 0.25rem 0.8rem;
+  margin-bottom: 0;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+details > .markdown-inner {
+  margin-top: 1rem;
+}

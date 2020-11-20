@@ -5,26 +5,26 @@
 </div>
 
 <div class="flex flex-wrap justify-between">
-  {{if .PrevInSection}}
+<!--   {{if .PrevInSection}}
     <a href="{{.PrevInSection.RelPermalink}}">Previous Section</a>
   {{else}}
     <span></span>
-  {{end}}
-  {{if .Prev}}
-    <a href="{{.Prev.RelPermalink}}">Previous</a>
+  {{end}} -->
+  {{if .PrevPage}}
+    <a href="{{.PrevPage.RelPermalink}}">Previous</a>
   {{else}}
     <span></span>
   {{end}}
-  {{if .Next}}
-    <a href="{{.Next.RelPermalink}}">Next</a>
+  {{if .NextPage}}
+    <a href="{{.NextPage.RelPermalink}}">Next</a>
   {{else}}
     <span></span>
   {{end}}
-  {{if .NextInSection}}
+<!--   {{if .NextInSection}}
     <a href="{{.NextInSection.RelPermalink}}">Next Section</a>
   {{else}}
     <span></span>
-  {{end}}
+  {{end}} -->
 </div>
 
 <div  class="nav navbar-nav">

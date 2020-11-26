@@ -1,0 +1,15 @@
+{{ if or .PrevInSection .NextInSection }}
+	<div date-pref class="pn-nav">
+		{{if .NextInSection}}
+			<a href="{{.NextInSection.Permalink }}" class="nav-prev-icon" title="{{ .NextInSection.Title }} ">
+				<svg class="fill-current" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" fill="#0055BB"></path></svg>
+			</a>
+		{{end}}
+
+		{{if .PrevInSection}}
+			<a href="{{ .PrevInSection.Permalink }}" class="nav-next-icon" title="{{ .PrevInSection.Title }}">
+			<svg class="fill-current" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" fill="#0055BB"></path></svg>
+			</a>
+		{{end}}
+	</div>
+{{ end }}

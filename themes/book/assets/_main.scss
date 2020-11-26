@@ -212,8 +212,6 @@ ul.pagination {
   nav {
     width: $toc-width;
     padding: $padding-16;
-
-    @include fixed;
   }
 
   img {
@@ -305,6 +303,10 @@ aside nav,
   transition: 0.2s ease-in-out;
   transition-property: transform, margin, opacity, visibility;
   will-change: transform, margin, opacity;
+}
+
+aside div.pn-nav {
+  text-align: center;
 }
 
 @media screen and (max-width: $mobile-breakpoint) {

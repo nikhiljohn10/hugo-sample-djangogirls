@@ -1,0 +1,12 @@
+<div class="flex flex-wrap justify-between">
+  {{if .Next}}
+    <a href="{{.NextPage.RelPermalink}}">Previous</a>
+  {{else}}
+    <span></span>
+  {{end}}
+  {{if .Prev}}
+    <a href="{{.PrevPage.RelPermalink}}">Next</a>
+  {{else}}
+    <span></span>
+  {{end}}
+</div>
